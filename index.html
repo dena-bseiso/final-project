@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+    <head>
+                
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'> 
+
+        <title>Dena Resturant</title>
+    </head>
+    <body>
+        <header id="up">
+           <nav>
+                <div class="row">
+                    <ul class="main-nav">
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#review">Reviews</a></li>
+                        <li><a href="#reserve">Reserve Table</a></li>
+                    </ul>
+                </div>
+            </nav> 
+            <div class="hero-text-box">
+                <h1>Goodbye typical taste.<br>Hello outstanding taste.</h1>
+                <a class="btn btn-ghost" href="#menu">See Our Menu</a>
+            </div>
+            
+        </header>
+
+
+        <section class="section-menu" id="menu">
+            <div class="row">
+                <h2>Dena Restaurant &mdash; Menu</h2>
+                <p class="long-copy">
+                   Hello to Dena Restaurant, Taste your outstanding food with us. If you are one of those who are looking for elegant taste in such a cozy place. Then Dena Restaurant is your best destination.
+                </p>
+            </div>
+            
+            <div class="row">
+
+         <div class="col span-1-of-4 box">
+            <div class="container">
+                <img src="images/burger.jpg" alt="Burger" style="width:100%;">
+            <div class="text-block">
+              <h4>Burger</h4>
+              <p>Starting From 4.99 JD</p>
+                </div>
+            </div>
+        </div>
+
+         <div class="col span-1-of-4 box">
+            <div class="container">
+                <img src="images/pizza.jpg" alt="Pizza" style="width:100%;">
+            <div class="text-block">
+              <h4>Pizza</h4>
+              <p>Starting From 3.49 JD</p>
+                </div>
+            </div>
+        </div>
+        
+         <div class="col span-1-of-4 box">
+            <div class="container">
+                <img src="images/steak.jpg" alt="Steak" style="width:100%;">
+            <div class="text-block">
+              <h4>Steak</h4>
+              <p>Starting From 7.99 JD</p>
+                </div>
+            </div>
+        </div>
+
+         <div class="col span-1-of-4 box">
+            <div class="container">
+                <img src="images/adas.jpg" alt="Adas Soup" style="width:100%;">
+            <div class="text-block">
+              <h4> Adas Soup </h4>
+              <p>Starting From 1.49 JD</p>
+                </div>
+            </div>
+        </div>  
+        </section>
+
+        <section class="section-reviews" id="review">
+            <div class="row">
+                <h2>Our Customer Review On Social Media</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <blockquote>
+                        Dena Restaurant is awesome! I just ate Pizza which left me speechless because of the taste, so Dena Restaurant is a life-saver. I've been looking for the best Italian taste which found in Dena Restaurant.
+                        <cite><img src="images/instagram.png">Raghad Jamal</cite>
+                    </blockquote>
+                </div>
+                <div class="col span-1-of-3">
+                    <blockquote>
+                       I've just discovered my daily restaurant, the meat was well grilled I even asked to meet the Chef to admire his cooking. The place is very cozy with lovely music. Me and my family are so in love!
+                        <cite><img src="images/twitter.png">Zain Nofal</cite>
+                    </blockquote>
+                </div>
+                <div class="col span-1-of-3">
+                    <blockquote>
+                        Best place to eat your favorite Burger while they allow you to customize your burger as you want. Best Restaurant in the Amman. Keep up the great work! Highly recommended if you are going with family too.
+                    <cite><img src="images/twitter.png">Sara Bseiso</cite>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="section-form" id="reserve">
+            <div class="row">
+                <h2>Reserve Your Table In Advance</h2>
+            </div>
+            <div class="row">
+                <form method="post" action="#" class="contact-form">
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" id="name" placeholder="Your full name" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="tel">Phone Number</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="tel" name="phone" id="phone" placeholder="Your phone number" required>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="date">Date</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="date" id="myDate" name="trip-start"  required>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="time">Choose Your Best Time Range</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <select name="time" id="time">
+                                <option value="morning" selected>10:00 AM - 1:00 PM</option>
+                                <option value="launch">1:00 PM - 5:00 PM</option>
+                                <option value="sunset">5:00 PM - 9:00 PM</option>
+                                <option value="night">9:00 PM - 12:00 PM</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Near Window?</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="checkbox" name="news" id="news" checked> Yes, please
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Other Informations</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="message" placeholder="Your message"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>&nbsp;</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" value="Send it!">
+                        </div>
+                    </div>
+                    
+                </form>
+                
+            </div>
+        </section>
+        
+        <footer>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <ul class="footer-nav">
+                        <li><a href="#up">Go Up</a></li>
+                    </ul>
+                </div>
+                <div class="col span-1-of-3">          
+                   <p> Copyright &copy; 2021 by Dena Bseiso. </p>
+                </div>
+                <div class="col span-1-of-3">
+                    <ul class="social-links">
+                        <li><a href="https://www.facebook.com/dena.bseiso.1"><img src="images/facebook.png" width="20" height="20"/> </a></li>
+                        <li><a href="https://www.instagram.com/denabseiso"><img src="images/instagram.png" width="20" height="20"/> </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+
+            </div>
+        </footer>
+
+    </body>  
+
+<script>
+    var date = new Date();
+
+    var day = date.getDate();
+    var month = date.getMonth() + 1;
+    var year = date.getFullYear();
+
+    if (month < 10) month = "0" + month;
+    if (day < 10) day = "0" + day;
+
+    var today = day + "/" + month + "/" + year; 
+    document.getElementById("myDate").value = today;
+</script>
+    
+</html>
